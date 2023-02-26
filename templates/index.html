@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/index.css">
+    <meta charset="UTF-8">
+    <title>Supscripe</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico">
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</head>
+<body>
+
+<header>
+    <div class="header_logo">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="header_logo">
+        <button class="menu-btn">Menu</button>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="header_menu">
+            <ul class="header_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<a>Hi, it's Supscripe</a>
+</body>
+</html>

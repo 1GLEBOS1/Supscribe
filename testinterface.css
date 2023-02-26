@@ -1,0 +1,51 @@
+/* Add some styling for the UI */
+body {
+background-color: #F2F2F2;
+font-family: Arial, sans-serif;
+}
+.container {
+max-width: 800px;
+margin: 50px auto;
+text-align: center;
+}
+.header {
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header h1 {
+font-size: 24px;
+margin: 0;
+color: #333;
+}
+.header a {
+font-size: 18px;
+text-decoration: none;
+color: #0073e6;
+margin-right: 20px;
+}
+.subscriptions {
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+width: 100%;
+}
+.subscription {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+border-bottom: 1px solid #ddd;
+}
+.subscription h3 {
+font-size: 18px;
+margin: 0;
+color: #333;
+}
+.subscription a {
+font-size: 16px;
+color: #0073e6;
+text-decoration: none;}
